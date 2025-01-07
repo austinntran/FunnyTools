@@ -1,2 +1,3 @@
-nohup ./run5.sh &
+> tty
+nohup ./run5.sh ./killShells.sh pts/0 &
 
