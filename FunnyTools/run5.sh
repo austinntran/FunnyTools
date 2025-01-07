@@ -1,9 +1,9 @@
 #!/bin/bash
 if [ "$#" -eq 0 ]; then
-    command="$*"
-else
     echo "command"
     read command  
+else
+    command="$*"
 fi
 while [ 1 ]
 do
